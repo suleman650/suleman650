@@ -37,8 +37,8 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=suleman650&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=suleman650&layout=compact&theme=radical"/>
+  <img height="180em" src="https://github-stats-extended.vercel.app/api?username=suleman650&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=suleman650&layout=compact&theme=radical"/>
 </p>
 
 <p align="center">
