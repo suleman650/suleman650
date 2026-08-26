@@ -1,7 +1,5 @@
 <div align="center">
 
-<div align="center">
-
 <img src="banner.svg" width="100%"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=DevOps+Engineer+in+Progress+%F0%9F%9A%80;Docker+%7C+Kubernetes+%7C+CI%2FCD;Automating+Everything+%E2%9A%99%EF%B8%8F;Always+Learning%2C+Always+Building" alt="Typing SVG" />
@@ -21,6 +19,8 @@
 
 <img align="right" width="320" src="https://raw.githubusercontent.com/ashutosh00710/github-readme-activity-graph/master/assets/octocat.gif"/>
 
+<div align="left">
+
 ```yaml
 name: Suleman
 role: DevOps Engineer (in training)
@@ -35,6 +35,8 @@ fun_fact: "I automate things so I don't have to do them twice"
 - 💬 Ask me about **DevOps, Linux, Docker, CI/CD, Web Dev**
 - 📫 Reach me at **your-email@example.com**
 - ⚡ Fun fact: **I break things in production... in staging, first.**
+
+</div>
 
 <br clear="both"/>
 
