@@ -1,7 +1,8 @@
 <div align="center">
 
-<h1>👋 Hi There, I'm Suleman</h1>
-<h3>DevOps Engineer in the Making | Cloud & Automation Enthusiast</h3>
+<div align="center">
+
+<img src="banner.svg" width="100%"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=DevOps+Engineer+in+Progress+%F0%9F%9A%80;Docker+%7C+Kubernetes+%7C+CI%2FCD;Automating+Everything+%E2%9A%99%EF%B8%8F;Always+Learning%2C+Always+Building" alt="Typing SVG" />
 
@@ -15,6 +16,8 @@
 <br/>
 
 ## 🧑‍💻 About Me
+
+<img src="divider.svg" width="100%"/>
 
 <img align="right" width="320" src="https://raw.githubusercontent.com/ashutosh00710/github-readme-activity-graph/master/assets/octocat.gif"/>
 
@@ -37,6 +40,8 @@ fun_fact: "I automate things so I don't have to do them twice"
 
 ## 🛠️ Tech Arsenal
 
+<img src="divider.svg" width="100%"/>
+
 <div align="center">
 
 **Languages**
@@ -57,6 +62,8 @@ fun_fact: "I automate things so I don't have to do them twice"
 
 ## 📊 GitHub Analytics
 
+<img src="divider.svg" width="100%"/>
+
 <div align="center">
 
 <img height="165em" src="https://github-stats-extended.vercel.app/api?username=suleman650&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
@@ -67,6 +74,8 @@ fun_fact: "I automate things so I don't have to do them twice"
 
 ## 🐍 Contribution Snake
 
+<img src="divider.svg" width="100%"/>
+
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/suleman650/suleman650/output/github-contribution-grid-snake-dark.svg" alt="snake animation"/>
@@ -76,6 +85,8 @@ fun_fact: "I automate things so I don't have to do them twice"
 </div>
 
 ## 🌐 Connect With Me
+
+<img src="divider.svg" width="100%"/>
 
 <div align="center">
 
