@@ -15,7 +15,7 @@
 - 🔭 I'm currently working on **exciting projects**
 - 🌱 I'm currently learning **DevOps** — course completing in ~20 days 🎓
 - 💬 Ask me about **DevOps, Web Development, Programming**
-- 📫 How to reach me: **your-email@example.com**
+- 📫 How to reach me: **mw1128866@gmail.com**
 - ⚡ Fun fact: **I love solving problems with code!**
 
 ---
