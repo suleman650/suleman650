@@ -81,7 +81,7 @@ fun_fact: "I automate things so I don't have to do them twice"
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=suleman650&theme=radical&no-frame=true&row=1&column=7&margin-w=8"/>
+<img src="https://github-profile-trophy-liard-delta.vercel.app/?username=suleman650&theme=radical&no-frame=true&row=1&column=7&margin-w=8"/>
 
 </div>
 
