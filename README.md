@@ -1,6 +1,7 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Hi%20There%2C%20I'm%20Suleman%20%F0%9F%91%8B&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=DevOps%20Engineer%20in%20the%20Making%20%7C%20Cloud%20%26%20Automation%20Enthusiast&descAlignY=55&descSize=18" width="100%"/>
+<h1>👋 Hi There, I'm Suleman</h1>
+<h3>DevOps Engineer in the Making | Cloud & Automation Enthusiast</h3>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=DevOps+Engineer+in+Progress+%F0%9F%9A%80;Docker+%7C+Kubernetes+%7C+CI%2FCD;Automating+Everything+%E2%9A%99%EF%B8%8F;Always+Learning%2C+Always+Building" alt="Typing SVG" />
 
