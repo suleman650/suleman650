@@ -62,9 +62,6 @@ fun_fact: "I automate things so I don't have to do them twice"
 <img height="165em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=suleman650&layout=compact&theme=radical&hide_border=true&bg_color=0d1117"/>
 
 <img src="https://streak-stats.demolab.com?user=suleman650&theme=radical" alt="streak stats"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=suleman650&theme=react-dark" alt="activity graph" width="90%"/>
-
 </div>
 
 ## 🐍 Contribution Snake
@@ -74,14 +71,6 @@ fun_fact: "I automate things so I don't have to do them twice"
 <img src="https://raw.githubusercontent.com/suleman650/suleman650/output/github-contribution-grid-snake-dark.svg" alt="snake animation"/>
 
 <sub>⚙️ Auto-updates daily via GitHub Actions — see setup note below</sub>
-
-</div>
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy-liard-delta.vercel.app/?username=suleman650&theme=radical&no-frame=true&row=1&column=7&margin-w=8"/>
 
 </div>
 
