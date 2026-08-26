@@ -61,9 +61,9 @@ fun_fact: "I automate things so I don't have to do them twice"
 <img height="165em" src="https://github-stats-extended.vercel.app/api?username=suleman650&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
 <img height="165em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=suleman650&layout=compact&theme=radical&hide_border=true&bg_color=0d1117"/>
 
-<img src="https://streak-stats.demolab.com?user=suleman650&theme=radical&hide_border=true&background=0d1117" alt="streak stats"/>
+<img src="https://streak-stats.demolab.com?user=suleman650&theme=radical" alt="streak stats"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=suleman650&theme=react-dark&hide_border=true&bg_color=0d1117" alt="activity graph" width="90%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=suleman650&theme=react-dark" alt="activity graph" width="90%"/>
 
 </div>
 
