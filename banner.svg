@@ -1,55 +1,110 @@
-<svg width="100%" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="230" viewBox="0 0 1000 230" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f0c29">
-        <animate attributeName="stop-color" values="#0f0c29;#302b63;#0f0c29" dur="6s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#0a0e27">
+        <animate attributeName="stop-color" values="#0a0e27;#1a1035;#0a0e27" dur="8s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#302b63">
-        <animate attributeName="stop-color" values="#302b63;#24243e;#302b63" dur="6s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#1a1035">
+        <animate attributeName="stop-color" values="#1a1035;#2d1b4e;#1a1035" dur="8s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#24243e">
-        <animate attributeName="stop-color" values="#24243e;#0f0c29;#24243e" dur="6s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#0a0e27">
+        <animate attributeName="stop-color" values="#0a0e27;#1a1035;#0a0e27" dur="8s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
+
+    <radialGradient id="glowGrad" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#58A6FF" stroke-width="0.5" opacity="0.08"/>
+    </pattern>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
-  <rect width="1000" height="220" fill="url(#bgGrad)"/>
+  <rect width="1000" height="230" fill="url(#bgGrad)"/>
+  <rect width="1000" height="230" fill="url(#grid)"/>
+  <rect width="1000" height="230" fill="url(#glowGrad)"/>
 
-  <circle cx="80" cy="40" r="2.5" fill="#58A6FF" opacity="0.7">
-    <animate attributeName="cy" values="40;180;40" dur="7s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="7s" repeatCount="indefinite"/>
+  <path d="M 30 25 L 30 45 M 30 25 L 50 25" stroke="#58A6FF" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 970 25 L 970 45 M 970 25 L 950 25" stroke="#58A6FF" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 30 205 L 30 185 M 30 205 L 50 205" stroke="#58A6FF" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 970 205 L 970 185 M 970 205 L 950 205" stroke="#58A6FF" stroke-width="2" fill="none" opacity="0.5"/>
+
+  <ellipse cx="500" cy="115" rx="330" ry="90" fill="none" stroke="#58A6FF" stroke-width="0.6" opacity="0.12"/>
+  <circle r="4" fill="#58A6FF" opacity="0.8" filter="url(#softGlow)">
+    <animateMotion dur="10s" repeatCount="indefinite"
+      path="M 830,115 A 330,90 0 1,1 170,115 A 330,90 0 1,1 830,115"/>
   </circle>
-  <circle cx="220" cy="160" r="2" fill="#58A6FF" opacity="0.5">
-    <animate attributeName="cy" values="160;30;160" dur="9s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;0.15;0.5" dur="9s" repeatCount="indefinite"/>
+
+  <circle cx="70" cy="45" r="2.5" fill="#58A6FF" opacity="0.7" filter="url(#softGlow)">
+    <animate attributeName="cy" values="45;190;45" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0.1;0.7" dur="7s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="880" cy="50" r="3" fill="#58A6FF" opacity="0.6">
-    <animate attributeName="cy" values="50;190;50" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="8s" repeatCount="indefinite"/>
+  <circle cx="180" cy="180" r="2" fill="#a371f7" opacity="0.6" filter="url(#softGlow)">
+    <animate attributeName="cy" values="180;30;180" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.1;0.6" dur="9s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="930" cy="150" r="2.5" fill="#58A6FF" opacity="0.6">
-    <animate attributeName="cy" values="150;20;150" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="10s" repeatCount="indefinite"/>
+  <circle cx="900" cy="55" r="3" fill="#58A6FF" opacity="0.7" filter="url(#softGlow)">
+    <animate attributeName="cy" values="55;200;55" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0.1;0.7" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="940" cy="170" r="2.5" fill="#a371f7" opacity="0.6" filter="url(#softGlow)">
+    <animate attributeName="cy" values="170;20;170" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.1;0.6" dur="11s" repeatCount="indefinite"/>
   </circle>
   <circle cx="500" cy="25" r="2" fill="#58A6FF" opacity="0.5">
-    <animate attributeName="cy" values="25;60;25" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="25;55;25" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="120" cy="110" r="1.8" fill="#a371f7" opacity="0.5">
+    <animate attributeName="cx" values="120;150;120" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="870" cy="120" r="1.8" fill="#58A6FF" opacity="0.5">
+    <animate attributeName="cx" values="870;840;870" dur="6.5s" repeatCount="indefinite"/>
   </circle>
 
-  <path fill="#58A6FF" opacity="0.15">
+  <path fill="#58A6FF" opacity="0.12">
     <animate attributeName="d" dur="6s" repeatCount="indefinite"
       values="
-        M0,200 Q250,180 500,200 T1000,200 V220 H0 Z;
-        M0,200 Q250,220 500,200 T1000,200 V220 H0 Z;
-        M0,200 Q250,180 500,200 T1000,200 V220 H0 Z"/>
+        M0,210 Q250,190 500,210 T1000,210 V230 H0 Z;
+        M0,210 Q250,230 500,210 T1000,210 V230 H0 Z;
+        M0,210 Q250,190 500,210 T1000,210 V230 H0 Z"/>
   </path>
 
-  <text x="500" y="105" text-anchor="middle" font-family="Segoe UI, Verdana, sans-serif" font-size="42" font-weight="700" fill="#ffffff">
+  <text x="500" y="100" text-anchor="middle" font-family="Segoe UI, Verdana, sans-serif" font-size="44" font-weight="800" fill="#ffffff" filter="url(#glow)">
     👋 Hi There, I'm Suleman
   </text>
 
-  <text x="500" y="145" text-anchor="middle" font-family="Segoe UI, Verdana, sans-serif" font-size="18" fill="#c9d1d9">
-    DevOps Engineer in the Making · Cloud &amp; Automation Enthusiast
+  <text x="500" y="140" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="17" fill="#8b95a8">
+    <tspan fill="#58A6FF">$</tspan> DevOps Engineer in the Making · Cloud &amp; Automation Enthusiast<tspan fill="#58A6FF"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>▌</tspan>
   </text>
 
-  <rect x="380" y="165" width="240" height="3" rx="1.5" fill="#58A6FF"/>
+  <rect x="370" y="160" width="260" height="3" rx="1.5" fill="#58A6FF" filter="url(#softGlow)"/>
+
+  <g font-family="Segoe UI, Verdana, sans-serif" font-size="13" fill="#c9d1d9">
+    <rect x="345" y="180" width="90" height="24" rx="12" fill="#58A6FF" opacity="0.12" stroke="#58A6FF" stroke-width="0.8"/>
+    <text x="390" y="196" text-anchor="middle" fill="#9ec5ff">🐳 Docker</text>
+
+    <rect x="445" y="180" width="110" height="24" rx="12" fill="#a371f7" opacity="0.12" stroke="#a371f7" stroke-width="0.8"/>
+    <text x="500" y="196" text-anchor="middle" fill="#c9a9ff">☸️ Kubernetes</text>
+
+    <rect x="565" y="180" width="90" height="24" rx="12" fill="#58A6FF" opacity="0.12" stroke="#58A6FF" stroke-width="0.8"/>
+    <text x="610" y="196" text-anchor="middle" fill="#9ec5ff">☁️ AWS</text>
+  </g>
 </svg>
