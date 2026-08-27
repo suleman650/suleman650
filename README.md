@@ -86,11 +86,34 @@ fun_fact: "I automate things so I don't have to do them twice"
 
 </div>
 
+## 🚀 Featured Projects
+
+<img src="divider.svg" width="100%"/>
+
+<div align="center">
+
+<a href="https://github.com/suleman650" target="_blank">
+  <img src="https://github-stats-extended.vercel.app/api/pin/?username=suleman650&repo=REPO_NAME_1&theme=radical&hide_border=true&bg_color=0d1117" width="47%"/>
+</a>
+<a href="https://github.com/suleman650" target="_blank">
+  <img src="https://github-stats-extended.vercel.app/api/pin/?username=suleman650&repo=REPO_NAME_2&theme=radical&hide_border=true&bg_color=0d1117" width="47%"/>
+</a>
+
+<sub>👆 Replace <code>REPO_NAME_1</code> and <code>REPO_NAME_2</code> above with your actual repository names to showcase your best work.</sub>
+
+</div>
+
 ## 🌐 Connect With Me
 
 <img src="divider.svg" width="100%"/>
 
 <div align="center">
+
+<a href="mailto:your-email@example.com">
+  <img src="https://img.shields.io/badge/📩_Let's_Connect-58A6FF?style=for-the-badge&logoColor=white" />
+</a>
+
+<br/><br/>
 
 <a href="https://www.linkedin.com/in/your-linkedin" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://www.instagram.com/your-instagram" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
@@ -101,7 +124,7 @@ fun_fact: "I automate things so I don't have to do them twice"
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
+<img src="divider.svg" width="100%"/>
 
 <div align="center">
 <sub>⭐️ From <a href="https://github.com/suleman650">suleman650</a> — Built with passion for DevOps</sub>
