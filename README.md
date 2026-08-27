@@ -92,14 +92,12 @@ fun_fact: "I automate things so I don't have to do them twice"
 
 <div align="center">
 
-<a href="https://github.com/suleman650" target="_blank">
-  <img src="https://github-stats-extended.vercel.app/api/pin/?username=suleman650&repo=REPO_NAME_1&theme=radical&hide_border=true&bg_color=0d1117" width="47%"/>
+<a href="https://github.com/suleman650/AI-ResumeMatch" target="_blank">
+  <img src="https://github-stats-extended.vercel.app/api/pin/?username=suleman650&repo=AI-ResumeMatch&theme=radical&hide_border=true&bg_color=0d1117" width="47%"/>
 </a>
-<a href="https://github.com/suleman650" target="_blank">
-  <img src="https://github-stats-extended.vercel.app/api/pin/?username=suleman650&repo=REPO_NAME_2&theme=radical&hide_border=true&bg_color=0d1117" width="47%"/>
+<a href="https://github.com/suleman650/Smart-Health-Monitoring-App" target="_blank">
+  <img src="https://github-stats-extended.vercel.app/api/pin/?username=suleman650&repo=Smart-Health-Monitoring-App&theme=radical&hide_border=true&bg_color=0d1117" width="47%"/>
 </a>
-
-<sub>👆 Replace <code>REPO_NAME_1</code> and <code>REPO_NAME_2</code> above with your actual repository names to showcase your best work.</sub>
 
 </div>
 
